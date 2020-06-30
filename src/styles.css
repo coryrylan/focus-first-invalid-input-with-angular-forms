@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+
+body {
+  font-family: Lato;
+}
+
+input {
+  margin-bottom: 24px;
+}
