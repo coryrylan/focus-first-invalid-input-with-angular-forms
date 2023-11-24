@@ -1,8 +1,7 @@
 import { Directive, HostListener, ElementRef } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-import { FormGroup } from '@angular/forms';
 
 @Directive({
+  standalone: true,
   selector: '[focusInvalidInput]'
 })
 export class FormDirective {
